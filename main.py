@@ -1,7 +1,7 @@
+from tkinter import Tk
 from uis.general.ui import MainWindow
 
 
-window = MainWindow()
-window.master.title("migvil5 some projects")
-window.master.geometry('250x500')
-window.master.mainloop()
+root = Tk()
+my_gui = MainWindow(root)
+root.mainloop()
